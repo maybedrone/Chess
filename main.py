@@ -7,7 +7,7 @@ from pieces import *
 class ChessGame:
     def __init__(self, root):
         self.root = root
-        self.root.title('Chess Game')
+        self.root.title('Chess')
         self.canvas = tk.Canvas(root, width=SQUARE_SIZE*BOARD_SIZE, height=SQUARE_SIZE*BOARD_SIZE)
         self.canvas.pack()
 
